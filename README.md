@@ -5,20 +5,18 @@ To write a python program to implement multivariate linear regression and predic
 1.	Hardware – PCs
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-### Step1
-<br>
+Step 1: Import NumPy and define input data arrays (Weight, Volume, CO₂).
 
-### Step2
-<br>
+Step 2: Form the feature matrix 
+𝑋
+X by combining Weight and Volume, and add a column of ones for the intercept.
 
-### Step3
-<br>
+Step 3: Compute regression coefficients using the normal equation
 
-### Step4
-<br>
+`(X^T X)^(-1) X^T Y`
 
-### Step5
-<br>
+
+Step 4: Predict CO₂ for new input values and print coefficients, intercept, and predicted value.
 
 ## Program:
 ```
@@ -54,9 +52,6 @@ print("Predicted CO2:", pred)
 ## Output:
 <img width="999" height="634" alt="image" src="https://github.com/user-attachments/assets/2107cdb1-9433-4780-969b-602348fe58d9" />
 
-### Insert your output
-
-<br>
 
 ## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
